@@ -1,0 +1,80 @@
+Instance initial solution: depot_4
+Number vehicle: 2
+Total distance: 50.474658000000005
+1
+Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 110.0) -> (Customer 2, service time 142.0) -> (Depot, service time 169.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 1, "name": "Công ty TNHH Sensehome Concept", "address": "236a Nguyễn Tư Giản, Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh", "x": 106.731978, "y": 11.055939, "demand": 22.0, "ready_time": 110.0, "due_date": 180.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Customer: {"cust_no": 2, "name": "Thịnh Phát", "address": "Lũy Bán Bích, Phường Tân Thái Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh", "x": 106.85441979, "y": 10.957961955, "demand": 60.0, "ready_time": 110.0, "due_date": 200.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+Vehicle 1: (Depot, service time 0) -> (Customer 3, service time 150.0) -> (Depot, service time 179.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 3, "name": "Công ty TNHH ANACA", "address": "Vh7w+7jh, Xã Xuân Thới Đông, Huyện Hóc Môn, Thành phố Hồ Chí Minh", "x": 106.87196928, "y": 10.944349839, "demand": 70.0, "ready_time": 150.0, "due_date": 220.0, "service_time": 15.0, "is_served": true, "vehicle_num": 1} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+50.474658000000005
+
+----------------------------------
+Instance depot_4 after 1 min
+Number vehicle: 2
+Total distance: 50.474658000000005
+1
+Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 110.0) -> (Customer 2, service time 142.0) -> (Depot, service time 169.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 1, "name": "Công ty TNHH Sensehome Concept", "address": "236a Nguyễn Tư Giản, Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh", "x": 106.731978, "y": 11.055939, "demand": 22.0, "ready_time": 110.0, "due_date": 180.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Customer: {"cust_no": 2, "name": "Thịnh Phát", "address": "Lũy Bán Bích, Phường Tân Thái Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh", "x": 106.85441979, "y": 10.957961955, "demand": 60.0, "ready_time": 110.0, "due_date": 200.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+Vehicle 1: (Depot, service time 0) -> (Customer 3, service time 150.0) -> (Depot, service time 179.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 3, "name": "Công ty TNHH ANACA", "address": "Vh7w+7jh, Xã Xuân Thới Đông, Huyện Hóc Môn, Thành phố Hồ Chí Minh", "x": 106.87196928, "y": 10.944349839, "demand": 70.0, "ready_time": 150.0, "due_date": 220.0, "service_time": 15.0, "is_served": true, "vehicle_num": 1} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+50.474658000000005
+Objective function count:  116073
+
+----------------------------------
+Instance depot_4 after 5 min
+Number vehicle: 2
+Total distance: 50.474658000000005
+1
+Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 110.0) -> (Customer 2, service time 142.0) -> (Depot, service time 169.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 1, "name": "Công ty TNHH Sensehome Concept", "address": "236a Nguyễn Tư Giản, Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh", "x": 106.731978, "y": 11.055939, "demand": 22.0, "ready_time": 110.0, "due_date": 180.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Customer: {"cust_no": 2, "name": "Thịnh Phát", "address": "Lũy Bán Bích, Phường Tân Thái Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh", "x": 106.85441979, "y": 10.957961955, "demand": 60.0, "ready_time": 110.0, "due_date": 200.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+Vehicle 1: (Depot, service time 0) -> (Customer 3, service time 150.0) -> (Depot, service time 179.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 3, "name": "Công ty TNHH ANACA", "address": "Vh7w+7jh, Xã Xuân Thới Đông, Huyện Hóc Môn, Thành phố Hồ Chí Minh", "x": 106.87196928, "y": 10.944349839, "demand": 70.0, "ready_time": 150.0, "due_date": 220.0, "service_time": 15.0, "is_served": true, "vehicle_num": 1} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+50.474658000000005
+Objective function count:  0
+
+----------------------------------
+Number vehicle: 2
+Total distance: 50.474658000000005
+1
+Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 110.0) -> (Customer 2, service time 142.0) -> (Depot, service time 169.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 1, "name": "Công ty TNHH Sensehome Concept", "address": "236a Nguyễn Tư Giản, Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh", "x": 106.731978, "y": 11.055939, "demand": 22.0, "ready_time": 110.0, "due_date": 180.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Customer: {"cust_no": 2, "name": "Thịnh Phát", "address": "Lũy Bán Bích, Phường Tân Thái Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh", "x": 106.85441979, "y": 10.957961955, "demand": 60.0, "ready_time": 110.0, "due_date": 200.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+Vehicle 1: (Depot, service time 0) -> (Customer 3, service time 150.0) -> (Depot, service time 179.0)
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
+		Customer: {"cust_no": 3, "name": "Công ty TNHH ANACA", "address": "Vh7w+7jh, Xã Xuân Thới Đông, Huyện Hóc Môn, Thành phố Hồ Chí Minh", "x": 106.87196928, "y": 10.944349839, "demand": 70.0, "ready_time": 150.0, "due_date": 220.0, "service_time": 15.0, "is_served": true, "vehicle_num": 1} 
+		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.7750025, "y": 11.0337104, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
+
+50.474658000000005
+Objective function count:  288192

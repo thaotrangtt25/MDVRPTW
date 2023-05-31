@@ -1,0 +1,10 @@
+VEHICLE
+NUMBER     CAPACITY
+  50          100
+
+CUSTOMER
+            X          Y  DEMAND  START  END  SERVICE TIME                            NAME                                                                 ADDRESS
+0  106.775002  11.033710       0      0  420             0                             NaN                                                                     NaN
+1  106.731978  11.055939      22    110  180            15  Công ty TNHH Sensehome Concept      236a Nguyễn Tư Giản, Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh
+2  106.854420  10.957962      60    110  200            15                      Thịnh Phát  Lũy Bán Bích, Phường Tân Thái Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh
+3  106.871969  10.944350      70    150  220            15              Công ty TNHH ANACA       Vh7w+7jh, Xã Xuân Thới Đông, Huyện Hóc Môn, Thành phố Hồ Chí Minh
