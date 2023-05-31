@@ -10,6 +10,7 @@ def objective_function(num_vhcls, total_distance):
     counter += 1
     return num_vhcls * total_distance
 
+
 def sa_algorithm(instance, temp_start = 150, update_temp = lambda t : 0.9999 * t, stop_criterion = lambda t : t <= 0.01):
     curr_solution = incumb_solution = deepcopy(instance)
     # print("Inside sa: ", instance.get_total_distance_and_vehicles())
