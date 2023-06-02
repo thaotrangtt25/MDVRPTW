@@ -8,7 +8,12 @@ import time
 def cvrptw(instance_name):
     cwd = os.getcwd()
     depot_dir = os.path.join(cwd, "depot", instance_name)
-    result_filepath = os.path.join(cwd, "result", instance_name + ".txt")
+    
+    result_depot_dir = os.path.join(cwd, "result", instance_name)
+    if not os.path.exists(result_depot_dir):
+        os.mkdir(result_depot_dir)
+    result_filepath = os.path.join(result_depot_dir, instance_name + ".txt")
+    
     print("Start to run", instance_name)
     f = open(result_filepath, "w", encoding="utf-8")
 
@@ -18,7 +23,8 @@ def cvrptw(instance_name):
     instance.find_initial_solution()
 
     print(f'Instance initial solution: {instance_name}', file=f)
-    output, routes_list = instance.get_output(f)
+    excel_filepath = os.path.join(result_depot_dir, "initial_solution.xlsx")
+    output, routes_list = instance.get_output(f, excel_filepath)
     print(output, file=f)
 
     for vehicle in routes_list:
@@ -38,18 +44,22 @@ def cvrptw(instance_name):
     print("\n----------------------------------", file=f)
     print(f'Instance {instance_name} after 1 min', file=f)
     
-    output, _ = results[0][0].get_output(f)
+    excel_filepath = os.path.join(result_depot_dir, "after_1m_solution.xlsx")
+    output, _ = results[0][0].get_output(f, excel_filepath)
+    
     print(output, file=f)
     print("Objective function count: ", results[0][1], file=f)
     print("\n----------------------------------", file=f)
     
     print(f'Instance {instance_name} after 5 min', file=f)
-    output, _ = results[1][0].get_output(f)
+    excel_filepath = os.path.join(result_depot_dir, "after_5m_solution.xlsx")
+    output, _ = results[1][0].get_output(f, excel_filepath)
     print(output, file=f)
     print("Objective function count: ", results[1][1], file=f)
     print("\n----------------------------------", file=f)
     print(f'Instance {instance_name} in the end')
-    output, routes_list =  results[2][0].get_output(f)
+    excel_filepath = os.path.join(result_depot_dir, "final_solution.xlsx")
+    output, routes_list =  results[2][0].get_output(f, excel_filepath)
     print(output, file=f)
     print("Objective function count: ", results[2][1], file=f)
 

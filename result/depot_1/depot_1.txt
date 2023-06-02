@@ -4,7 +4,6 @@ Total distance: 32.650838
 1
 Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 170.0) -> (Depot, service time 205.0)
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
-		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
 		Customer: {"cust_no": 1, "name": "Công Ty Cổ Phần Và Dịch Vụ Lâu Đài Ven Sông", "address": "Lê Văn Sỹ , Phường 14, Quận 3", "x": 106.75181691, "y": 11.55234475, "demand": 18.0, "ready_time": 170.0, "due_date": 230.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
 
@@ -17,12 +16,11 @@ Total distance: 32.650838
 1
 Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 170.0) -> (Depot, service time 205.0)
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
-		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
 		Customer: {"cust_no": 1, "name": "Công Ty Cổ Phần Và Dịch Vụ Lâu Đài Ven Sông", "address": "Lê Văn Sỹ , Phường 14, Quận 3", "x": 106.75181691, "y": 11.55234475, "demand": 18.0, "ready_time": 170.0, "due_date": 230.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
 
 32.650838
-Objective function count:  152521
+Objective function count:  176788
 
 ----------------------------------
 Instance depot_1 after 5 min
@@ -31,7 +29,6 @@ Total distance: 32.650838
 1
 Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 170.0) -> (Depot, service time 205.0)
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
-		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
 		Customer: {"cust_no": 1, "name": "Công Ty Cổ Phần Và Dịch Vụ Lâu Đài Ven Sông", "address": "Lê Văn Sỹ , Phường 14, Quận 3", "x": 106.75181691, "y": 11.55234475, "demand": 18.0, "ready_time": 170.0, "due_date": 230.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
 
@@ -44,7 +41,6 @@ Total distance: 32.650838
 1
 Vehicle 0: (Depot, service time 0) -> (Customer 1, service time 170.0) -> (Depot, service time 205.0)
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
-		Customer: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null} 
 		Customer: {"cust_no": 1, "name": "Công Ty Cổ Phần Và Dịch Vụ Lâu Đài Ven Sông", "address": "Lê Văn Sỹ , Phường 14, Quận 3", "x": 106.75181691, "y": 11.55234475, "demand": 18.0, "ready_time": 170.0, "due_date": 230.0, "service_time": 15.0, "is_served": true, "vehicle_num": 0} 
 		Depot: {"cust_no": 0, "name": "nan", "address": "nan", "x": 106.8250625, "y": 11.1141875, "demand": 0.0, "ready_time": 0.0, "due_date": 420.0, "service_time": 0.0, "is_served": false, "vehicle_num": null}
 

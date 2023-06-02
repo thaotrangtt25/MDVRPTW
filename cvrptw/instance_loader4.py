@@ -283,12 +283,25 @@ class Instance:
     #     print("Total distance:", dist, file=f)
     #     return f'{i-1}\n{result}{dist}', points, routes
 
-    def get_output(self, f=None):
+    def get_output(self, f=None, excel=None):
         dist = 0
         result = ""
         count = 1
         
         routes_list = {}
+
+        data = {
+            "Vehicle": [],
+            "Customer": [],
+            "Name": [],
+            "Address": [],
+            "X": [],
+            "Y": [],
+            "Demand": [],
+            "Start time": [],
+            "End time": []
+        }
+
         for vehicle in self.vehicles:
             points = []
             if vehicle.last_service_time == 0:
@@ -308,9 +321,29 @@ class Instance:
                     customer_info += f'\t\tDepot: {node[0]}\n'
                 else: 
                     route += f'(Customer {node[0].cust_no}, service time {node[1]})'
+                    customer_info += f'\t\tCustomer: {node[0]} \n'
+                
+                if excel != None:
+                    data["Vehicle"].append("Vehicle " + str(vehicle.id))
+                    data["Customer"].append(node[0].cust_no)
+                    data["Name"].append(node[0].name)
+                    data["Address"].append(node[0].address)
+                    data["X"].append(node[0].x)
+                    data["Y"].append(node[0].y)
+                    data["Demand"].append(node[0].demand)
+
+                    start_time_hour = node[0].ready_time // 60 + 9
+                    start_time_minute = node[0].ready_time % 60
+                    start_time = str(int(start_time_hour)) + " hours and " + str(int(start_time_minute)) + " minutes"
+                    end_time_hour = node[0].due_date // 60 + 9
+                    end_time_minute = node[0].due_date % 60
+                    end_time = str(int(end_time_hour)) + " hours and " + str(int(end_time_minute)) + " minutes"
+
+                    data["Start time"].append(start_time)
+                    data["End time"].append(end_time)
+
                 if i < length - 1:
                     route += ' -> '
-                    customer_info += f'\t\tCustomer: {node[0]} \n'
                     
                 points.append((node[0].x, node[0].y, node[0].cust_no))
            
@@ -319,9 +352,12 @@ class Instance:
             routes_list[vehicle] = points
         print("Number vehicle:", count-1, file=f)
         print("Total distance:", dist, file=f)
+        
+        if excel != None:
+            df = pd.DataFrame(data=data)
+            df.to_excel(excel)
+        
         return f'{i-1}\n{result}{dist}', routes_list
-
-
 
     def get_total_distance_and_vehicles(self):
         dist = 0
